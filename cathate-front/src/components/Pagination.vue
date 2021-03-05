@@ -16,7 +16,7 @@
         </li>
         <li>
           <span class="page-item">
-            <form @submit="showReviewsOnInput">
+            <form @submit="showOnInput">
               <input type="number" class="page-link page-input border border-warning mx-1" placeholder="..." v-model="pages.input" :min="1" :max="pages.allPages">
               <input type="submit" style="display: none;"/>
             </form>
@@ -66,7 +66,7 @@ export default {
       // refresh on page
     },
 
-    showReviewsOnInput(e) {
+    showOnInput(e) {
       e.preventDefault();
       this.pages.current = this.pages.input;
       // refresh on input

@@ -12,7 +12,7 @@
             <Timeline />
           </div>
           <div class="col-sm-4">
-            <Timeline />
+            <Sidebar />
           </div>
         </div>
       </div>
@@ -26,6 +26,7 @@ import Header from "../common/Header.vue";
 import Footer from "../common/Footer";
 import Fact from "../Fact";
 import Timeline from "../Timeline";
+import Sidebar from "../SideBar";
 
 export default {
   name: "HomePage",
@@ -33,7 +34,8 @@ export default {
     Header,
     Footer,
     Fact,
-    Timeline
+    Timeline,
+    Sidebar
   },
   created() {
     document.title = 'CatHate'
