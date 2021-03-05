@@ -3,7 +3,7 @@
     <div class="m-auto text-center">
       <h2>Timeline</h2>
     </div>
-    <div class="timeline-element py-3 border-dark text-center rounded" v-for="element in elements" :key="element.id">
+    <div class="timeline-element py-3 my-3 border-dark text-center rounded" v-for="element in elements" :key="element.id">
       <div class="timeline-thumbnail">
         <img v-bind:src="element.thumbnail">
       </div>
@@ -29,10 +29,15 @@
         </div>
       </div>
     </div>
+    <Pagination />
   </div>
 </template>
 <script>
+import Pagination from './Pagination';
 export default {
+  components: {
+    Pagination
+  },
   data() {
     return {
       elements : []
@@ -90,6 +95,7 @@ a:hover {
 
 .timeline-reacts div {
   cursor: pointer;
+  font-size: 0.75rem;
 }
 
 .timeline-reacts div:hover{
