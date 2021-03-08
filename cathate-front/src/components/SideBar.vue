@@ -3,7 +3,7 @@
     <div class="m-auto text-center">
       <h2>Menu</h2>
     </div>
-    <div class="follow-us text-center">
+    <div class="follow-us text-center mb-3">
       <div class="text-uppercase font-weight-bold pb-2">Follow Cat Hate</div>
       <div class="row">
         <div class="col-md-6">
@@ -14,11 +14,18 @@
         </div>
       </div>
     </div>
+    <div class="m-auto text-center">
+      <h2>Top User</h2>
+    </div>
+    <TopUser />
   </div>
 </template>
 <script>
+import TopUser from './TopUser'
 export default {
-  
+  components: {
+    TopUser
+  }
 }
 </script>
 <style scoped>

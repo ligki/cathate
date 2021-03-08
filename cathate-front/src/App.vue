@@ -31,4 +31,8 @@ export default {
 @import url(https://use.fontawesome.com/releases/v5.7.0/css/all.css);
 @import url('./assets/css/home.css');
 @import url('./assets/css/common.css');
+
+html {
+  scroll-behavior: smooth;
+}
 </style>

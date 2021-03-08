@@ -6,7 +6,7 @@
       <div class="row text-center">
           Advertising....
         </div>
-      <div class="home-main my-3 px-1">
+      <div class="home-main my-3 px-1" id="timeline">
         <div class="row py-3">
           <div class="col-sm-8">
             <Timeline />

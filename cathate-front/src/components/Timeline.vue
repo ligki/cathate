@@ -39,6 +39,13 @@
         </div>
       </div>
     </div>
+    <div class="justify-content-center w-10">
+      <a href="#timeline">
+        <div class="text-center py-2">
+          <i class="fas fa-long-arrow-alt-up"></i> Jump Up
+        </div>
+      </a>
+    </div>
     <Pagination />
 
     <!-- Modal Write Comment -->
