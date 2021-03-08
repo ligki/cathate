@@ -3,7 +3,7 @@ import App from './App.vue'
 import Router from './routers';
 import VueHead from 'vue-head';
 import VueRouter from 'vue-router';
-import Vuex from 'vuex'
+import Vuex from 'vuex';
 
 Vue.config.productionTip = false
 Vue.use(VueHead);
